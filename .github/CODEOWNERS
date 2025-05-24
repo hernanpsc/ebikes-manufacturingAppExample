@@ -1,4 +1,8 @@
 # Default owners for everything in the repo.
 # They will be assigned for review on all PRs.
+<<<<<<< HEAD
 * @trailheadapps/maintainers-lwc-recipes-oss
+=======
+* @trailheadapps/maintainers-ebikes-lwc
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763
 #ECCN:Open Source

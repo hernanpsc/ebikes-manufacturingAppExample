@@ -5,10 +5,19 @@
     },
     "overrides": [
         {
+<<<<<<< HEAD
             "files": ["./*.js", "*.test.js", "scripts/*.mjs"],
             "env": {
                 "node": true,
                 "es6": true
+=======
+            "files": ["src/server/**", "./*.js"],
+            "env": {
+                "node": true
+            },
+            "rules": {
+                "no-console": "off"
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763
             }
         }
     ]

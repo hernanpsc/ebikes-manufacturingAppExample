@@ -4,6 +4,7 @@ logs
 *-debug.log
 *-error.log
 
+<<<<<<< HEAD
 # Standard dist folder
 /dist
 /build
@@ -16,6 +17,21 @@ jsconfig.json
 # Temp directory
 /tmp
 /__lwr_cache__
+=======
+# Dist dependencies
+src/client/assets/dependencies
+
+# App config file
+.env
+
+# Tooling files
+.vscode
+node_modules
+jsconfig.jsconfig
+
+# LWR cache
+__lwr_cache__
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763
 
 # Jest coverage folder
 /coverage
@@ -27,7 +43,11 @@ jsconfig.json
 Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
+<<<<<<< HEAD
 $RECYCLE.BIN/
 
 # Local environment variables
 .env
+=======
+$RECYCLE.BIN/
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763

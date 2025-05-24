@@ -19,6 +19,7 @@ Agreement. You can do so by going to https://cla.salesforce.com/sign-cla.
 
 ## Branches
 
+<<<<<<< HEAD
 - We work in `main`.
 - Our released (aka. _production_) branch is `main`.
 - Our work happens in _topic_ branches (feature and/or bug-fix).
@@ -31,12 +32,27 @@ Agreement. You can do so by going to https://cla.salesforce.com/sign-cla.
 - We try to limit merge commits as much as possible.
 
 - _Topic_ branches are:
+=======
+-   We work in `main`.
+-   Our released (aka. _production_) branch is `main`.
+-   Our work happens in _topic_ branches (feature and/or bug-fix).
+    -   feature as well as bug-fix branches are based on `main`
+    -   branches _should_ be kept up-to-date using `rebase`
+    -   see below for further merge instructions
+
+### Merging between branches
+
+-   We try to limit merge commits as much as possible.
+
+-   _Topic_ branches are:
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763
 
     1. based on `main` and will be
     1. squash-merged into `main`.
 
 ## Pull Requests
 
+<<<<<<< HEAD
 - Develop features and bug fixes in _topic_ branches.
 - _Topic_ branches can live in forks (external contributors) or within this repository (committers).
   \*\* When creating _topic_ branches in this repository please prefix with `<developer-name>/`.
@@ -44,3 +60,12 @@ Agreement. You can do so by going to https://cla.salesforce.com/sign-cla.
 ### Merging Pull Requests
 
 - Pull request merging is restricted to squash & merge only.
+=======
+-   Develop features and bug fixes in _topic_ branches.
+-   _Topic_ branches can live in forks (external contributors) or within this repository (committers).
+    \*\* When creating _topic_ branches in this repository please prefix with `<developer-name>/`.
+
+### Merging Pull Requests
+
+-   Pull request merging is restricted to squash & merge only.
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763

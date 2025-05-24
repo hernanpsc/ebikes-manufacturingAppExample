@@ -1,5 +1,9 @@
 # Unique name for this workflow
+<<<<<<< HEAD
 name: CI (PR)
+=======
+name: CI on PR
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763
 
 # Definition when the workflow should run
 on:
@@ -12,7 +16,11 @@ jobs:
     format-lint-lwc-tests:
         runs-on: trailheadapps-Ubuntu
         steps:
+<<<<<<< HEAD
             # Checkout the code in the pull request
+=======
+            # Checkout the source code
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763
             - name: 'Checkout source code'
               uses: actions/checkout@v4
 
@@ -40,6 +48,7 @@ jobs:
             - name: 'Code formatting verification with Prettier'
               run: npm run prettier:verify
 
+<<<<<<< HEAD
             # ESlint
             - name: 'Lint Lightning Web Components'
               run: npm run lint
@@ -52,6 +61,12 @@ jobs:
             - name: 'Upload code coverage for LWC to Codecov.io'
               uses: codecov/codecov-action@v4
 
+=======
+            # Lint LWC
+            - name: 'Lint Lightning Web Components'
+              run: npm run lint
+
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763
     # Auto merge Dependabot PRs for:
     # - patch updates on prod dependencies
     # - minor updates on dev dependencies

@@ -1,6 +1,23 @@
+<<<<<<< HEAD
 .vscode
 coverage/
 dist/
 site/
 src/resources
 __lwr_cache__
+=======
+# Jest coverage
+coverage/
+
+# Tooling generated config
+.vscode/
+
+# LWR cache
+__lwr_cache__
+
+# Default resources folder
+src/client/assets/
+
+# Bulma minified style
+src/client/modules/ui/bulma/
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763

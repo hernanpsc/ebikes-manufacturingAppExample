@@ -5,3 +5,8 @@ updates:
       schedule:
           interval: monthly
       open-pull-requests-limit: 10
+<<<<<<< HEAD
+=======
+      ignore:
+          - dependency-name: 'bulma'
+>>>>>>> 6a9c1688be06c86f280c12542a18779997907763
